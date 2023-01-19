@@ -21,7 +21,7 @@ async function getTheJoke(){
         jokeEl.innerText ="Error Occured.Please try again."
         
     }
-    btnEl.innerText = 'Click Me';
+    btnEl.innerText = 'Click Again!';
     btnEl.disabled = false;
 
     
