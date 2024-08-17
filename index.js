@@ -12,7 +12,7 @@ async function getTheJoke(){
             "X-Api-Key": "kWflbXkZSHMGGQtoDGzhbA==AOXajZ5FGWOLfOgs",
         },
     };
-        const response = await fetch('https://api.api-ninjas.com/v1/dadjokes, options);
+        const response = await fetch('https://api.api-ninjas.com/v1/dadjokes', options);
         const data = await response.json();
         jokeEl.innerText = data[0].joke;
       
