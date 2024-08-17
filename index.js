@@ -9,7 +9,7 @@ async function getTheJoke(){
     const options = {
         method:'GET',
         headers:{
-            "X-Api-Key": apiKey,
+            "X-Api-Key": "kWflbXkZSHMGGQtoDGzhbA==AOXajZ5FGWOLfOgs",
         },
     };
         const response = await fetch('https://api.api-ninjas.com/v1/dadjokes?limit=1', options);
